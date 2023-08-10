@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dork lywangzesen2003@163.com, xiaofeixia, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\lywan\Desktop\2023robocon\ECUST_M4_Robot_v2\MDK-ARM\ECUST_M4_Robot_v2.uvprojx
+Project File Date:  07/03/2023
+
+<h2>Output:</h2>
+Rebuild target 'ECUST_M4_Robot_v2'
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_can.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_tim.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_msp.c...
+compiling main.c...
+../Src/main.c(82): warning:  #177-D: function "MX_TIM1_Init" was declared but never referenced
+  static void MX_TIM1_Init(void);
+../Src/main.c(88): warning:  #177-D: function "MX_TIM9_Init" was declared but never referenced
+  static void MX_TIM9_Init(void);
+../Src/main.c(253): warning:  #177-D: function "MX_CAN2_Init" was declared but never referenced
+  static void MX_CAN2_Init(void)
+../Src/main.c(379): warning:  #177-D: function "MX_USART1_UART_Init" was declared but never referenced
+  static void MX_USART1_UART_Init(void)
+../Src/main.c: 4 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling can.c...
+..\Src\can.c(78): warning:  #177-D: variable "temp" was declared but never referenced
+        HAL_StatusTypeDef temp;
+..\Src\can.c(93): warning:  #177-D: variable "temp" was declared but never referenced
+        HAL_StatusTypeDef temp;
+..\Src\can.c: 2 warnings, 0 errors
+compiling control.c...
+compiling key.c...
+compiling pid.c...
+compiling led.c...
+linking...
+Program Size: Code=10116 RO-data=440 RW-data=24 ZI-data=2456  
+FromELF: creating hex file...
+"ECUST_M4_Robot_v2\ECUST_M4_Robot_v2.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\lywan\Desktop\2023robocon\ECUST_M4_Robot_v2\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
